@@ -1,0 +1,19 @@
+.turismo_contenido
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.turismo_contenido h2
+{
+    text-align: center;
+    margin: 2vh auto;
+    font-family: 'Satisfy', cursive;
+    font-size: 5vh;
+    text-shadow: 4px 4px 2px rgba(161, 158, 158, 0.8);
+}
+.turismo_contenido iframe
+{
+    width: 80%;
+    height: 80%;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="css/initialize.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="css/somos.css">
+    <link rel="stylesheet" href="css/reservas.css">
+    <link rel="stylesheet" href="css/turismo.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <title>Angel Alexander- Casa para Vacacionar</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="cabecera_centrar">
+            <div class="cabecera_div titulo">
+                <img src="img/logo.png" alt="">
+                <div class="titulo_texto">
+                    <h2>Angel Alexander</h2>
+                    <h3>Valle Hermoso</h3>
+                </div>
+            </div>
+
+            <div class="cabecera_div menu">
+                <nav class="cabecera_menu">
+                    <li class="cabecera_menu_items inicio"><a href="#principal_inicio">Inicio</a></li>
+                    <li class="cabecera_menu_items somos"><a href="#principal_somos">Quienes Somos</a></li>
+                    <li class="cabecera_menu_items reserva"><a href="#principal_reservas">Reservas</a></li>
+                    <li class="cabecera_menu_items turismo"><a href="#principal_turismo">Turismo</a></li>
+                    <li class="cabecera_menu_items contacto"><a href="#principal_contacto">Contacto</a></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="principal">
+        <section id="principal_inicio" class="seccion principal_inicio">
+            <div class="contenido inicio_contenido">
+                <div class="inicio_contenido-contenedor">
+                    <div class="inicio_contenido-texto">
+                        <h1>Una escapada a la naturaleza</h1>
+                        <legend>Vení a descubrir Cordoba</legend>
+                    </div>
+                    <a class="descubrir" href="#principal_turismo">Descubre Mas</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="principal_somos" class="seccion principal_somos">
+            <div class="contenido somos_contenido">
+                <div class="somos_contenido-contenedor">
+                    <div class="somos_contenido-texto">
+                        <h2>Hay lugares donde uno se queda</h2>
+                        <h4>Y lugares que se quedan en uno</h4>
+                        <P>Entre cascadas y balnearios, ríos y arroyos, se trata de una propuesta completa para descubrir en el Valle de Punilla que incluye museos, iglesias y hasta un castillo histórico.</P>
+                    </div>
+                    <div class="somos_contenido-galeria">
+                        <ul>
+                            <li><img src="img/slide1.webp" alt=""></li>
+                            <li><img src="img/slide2.webp" alt=""></li>
+                            <li><img src="img/slide3.webp" alt=""></li>
+                            <li><img src="img/slide4.webp" alt=""></li>
+                            <li><img src="img/slide5.webp" alt=""></li>
+                            <li><img src="img/slide6.webp" alt=""></li>
+                            <li><img src="img/slide7.webp" alt=""></li>
+                            <li><img src="img/slide8.webp" alt=""></li>
+                            <li><img src="img/slide9.webp" alt=""></li>
+                            <li><img src="img/slide10.webp" alt=""></li>
+                            <li><img src="img/slide11.webp" alt=""></li>
+                            <li><img src="img/slide12.webp" alt=""></li>
+                            <li><img src="img/slide13.webp" alt=""></li>
+                            <li><img src="img/slide14.webp" alt=""></li>
+                            <li><img src="img/slide15.webp" alt=""></li>
+                            <li><img src="img/slide16.webp" alt=""></li>
+                            <li><img src="img/slide17.webp" alt=""></li>
+                            <li><img src="img/slide18.webp" alt=""></li>
+                            <li><img src="img/slide19.webp" alt=""></li>
+                            <li><img src="img/slide20.webp" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principal_reservas" class="seccion principal_reservas">
+            <div class="contenido reservas_contenido">
+                <div class="reservas_contenido-contenedor">
+                    <h2>Deja tus datos</h2>
+                    <h3>Para poder contactarte</h3>
+                    <form action="" id="form">
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" name="nombre" id="nombreapellido" class="input-padron" required placeholder="Nombre y Apellido">
+            
+                        <label for="correoelectronico">Correo Electronico</label>
+                        <input type="email" name="email" id="correoelectronico" class="input-padron"required placeholder="email@dominio.com"><!--Es un input que admite direccion de correo -->
+            
+                        <label for="telefono">telefono</label>
+                        <input type="tel" name="" id="telefono" class="input-padron"required placeholder="(xxx) 15(x-xxx-xxx)">
+                        
+                        <fieldset>
+
+                            <legend>¿Como le gustaria que lo contactemos?</legend>
+            
+                            <label class="checkbox" for="radio-email"><input type="radio" name="contacto" id="radio-email" value="E-mail">E-mail</label>
+            
+                            <label class="checkbox" for="radio-telefono"><input type="radio" name="contacto" id="radio-telefono" value="Telefono">Telefono</label>
+                            
+            
+                            <label class="checkbox" for="radio-whatsapp"><input type="radio" name="contacto" id="radio-whatsapp" value="Whatsapp" checked>Whatsapp</label>
+                            
+                        </fieldset>
+            
+                        <fieldset>
+                            <legend>En cual horario desearia ser atendido</legend>
+                            <select name="" id="">
+                                <option value="">Mañana</option>
+                                <option value="">Tarde</option>
+                                <option value="">Noche</option>
+                            </select>
+                        </fieldset>
+                        
+            
+                        <label ><input type="checkbox" checked > Le gustaria recibir promociones?</label>
+            
+                        <input type="submit" 
+                        id="enviar"
+                        class="enviar" value="Enviar Formulario">
+            
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="principal_turismo" class="seccion principal_turismo">
+            <div class="contenido turismo_contenido">
+                
+                <h2>Lugares para visitar</h2>
+
+                <iframe src="https://www.google.com/maps/d/embed?mid=1jKblEar59GlyEWbzdNiSKatFEGbjIRg&hl=es-419&ehbc=2E312F" width="640" height="480"></iframe>
+            </div>
+        </section>
+
+        <section id="principal_contacto" class="seccion principal_contacto">
+            <div class="contenido contacto_contenido">
+
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
